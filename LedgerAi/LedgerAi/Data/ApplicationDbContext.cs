@@ -11,5 +11,7 @@ namespace LedgerAi.Data
         public DbSet<Account> Accounts { get; set; }
         public DbSet<JournalEntry> JournalEntries { get; set; }
         public DbSet<JournalLine> JournalLines { get; set; }
+        public DbSet<Item> Items { get; set; }
+        public DbSet<StoreLedger> StoreLedgers { get; set; }
     }
 }

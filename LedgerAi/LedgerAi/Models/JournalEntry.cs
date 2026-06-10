@@ -1,19 +1,16 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
 namespace LedgerAi.Models
 {
     public class JournalEntry
     {
-        [Key]
         public int Id { get; set; }
+        public DateTime TransactionDate { get; set; }
+        public string Reference { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
 
-        [Required]
-        public DateTime Date { get; set; } = DateTime.Now;
-
-        [Required]
-        public string Narration { get; set; } = string.Empty;
-
-        // Navigation Property
-        public List<JournalLine> JournalLines { get; set; } = new();
+        // Navigation property for 1-to-Many relationship
+        public ICollection<JournalLine> Lines { get; set; } = new List<JournalLine>();
     }
 }

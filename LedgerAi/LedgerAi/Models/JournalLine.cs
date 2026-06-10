@@ -19,9 +19,9 @@ namespace LedgerAi.Models
         public Account? Account { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]
-        public decimal Debit { get; set; }
+        public decimal DebitAmount { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]
-        public decimal Credit { get; set; }
+        public decimal CreditAmount { get; set; }
     }
 }
