@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LedgerAi", "LedgerAi\LedgerAi.csproj", "{7BF22398-197E-4060-9B05-1984BD3AFD44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BF22398-197E-4060-9B05-1984BD3AFD44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF22398-197E-4060-9B05-1984BD3AFD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF22398-197E-4060-9B05-1984BD3AFD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF22398-197E-4060-9B05-1984BD3AFD44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE179293-AE40-42CC-BC10-3E1D1CE59DDC}
+	EndGlobalSection
+EndGlobal
